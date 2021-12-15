@@ -4,13 +4,4 @@ files:
   - ./test/**/*.test.ts
 node-arg:
   - --require=ts-node/register/transpile-only
-nyc-arg:
-  # TODO: try to find a fix for incorrect coverage calculation.
-  # The issue here is that even though we've set the `--all` flag,
-  # tap + nyc is picking up only the files that tests have touched.
-  # This is why coverage is unusually high.
-  # See https://github.com/tapjs/node-tap/issues/615
-  - --all
-  - --include='src/**/*.ts'
-  - --exclude='test/**/*'
 reporter: classic
