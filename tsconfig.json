@@ -2,6 +2,7 @@
     "compilerOptions": {
       "module": "CommonJS",
       "moduleResolution": "node",
+      "sourceMap": true,
       "target": "ES5",
       "lib": ["ESNext"],
       "skipLibCheck": true,
@@ -15,4 +16,3 @@
       "importsNotUsedAsValues": "error",
     }
 }
- 
