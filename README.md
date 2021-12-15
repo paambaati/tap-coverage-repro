@@ -2,6 +2,8 @@
 
 This repo is a minimally-reproducible example for a bug in [`node-tap`](https://github.com/tapjs/node-tap)/[`nyc`](https://github.com/istanbuljs/nyc) where the test coverage does not include all source files, even when explicitly forced with the [`--all`](https://github.com/istanbuljs/nyc#selecting-files-for-coverage) `nyc` flag.
 
+See https://github.com/tapjs/node-tap/issues/796
+
 ## Current coverage report
 
 ```
