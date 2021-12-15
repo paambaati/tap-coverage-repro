@@ -1,0 +1,23 @@
+{
+  "name": "tap-coverage-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paambaati/tap-coverage-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paambaati/tap-coverage-repro/issues"
+  },
+  "homepage": "https://github.com/paambaati/tap-coverage-repro#readme",
+  "dependencies": {
+    "@types/node": "16.11.13",
+    "@types/tap": "15.0.5",
+    "tap": "15.1.5",
+    "ts-node": "10.4.0"
+  }
+}
